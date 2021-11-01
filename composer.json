@@ -1,0 +1,12 @@
+{
+    "name": "loic/combat",
+    "authors": [
+        {
+            "name": "Loic Fremond",
+            "email": "loic.fremond@hotmail.fr"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "^3.6"
+    }
+}
