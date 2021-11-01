@@ -20,7 +20,7 @@ class Chaman extends Character
         $this->maitrise *= 20;
         $this->intel *= 20;
         $this->pv *= 2;
-        $this->picture = "/public/pictures/thrall.jpg";
+        $this->picture = "./public/pictures/thrall.jpg";
     }
 
                     ///////////////////////////////////////////////////
