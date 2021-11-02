@@ -2,10 +2,10 @@
 
 class Database
 {
-    const HOST = 'db5005663974.hosting-data.io';
-    const DBNAME = 'dbs4769581';
-    const USERNAME = 'dbu2165274';
-    const PASSWORD = 'Uujr24-ar';
+    const HOST = 'localhost';
+    const DBNAME = 'game';
+    const USERNAME = 'root';
+    const PASSWORD = 'uujr24ar';
     private static $obj;
 
     private static function getConn()
@@ -69,4 +69,5 @@ class Database
         $character2 = $stmt->fetch(PDO::FETCH_ASSOC);
         return $character2;
     }
+
 }
